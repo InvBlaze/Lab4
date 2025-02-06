@@ -13,3 +13,24 @@
 
 ## Instructions
 - Open these images in Fritzing to view the exact wiring.
+
+
+
+## Overview
+This part simulates a traffic light system using **Raspberry Pi GPIO**.
+
+## Files
+- **traffic_lights.py** - Defines a class to control Red, Yellow, and Green LEDs.
+- **traffic_lights_test.py** - Tests the traffic light implementation.
+- **crosswalk_simulation.py** - Implements a traffic light system with a crosswalk button.
+
+## Hardware Setup
+- **Red LED** - GPIO17 (Pin 11)
+- **Yellow LED** - GPIO27 (Pin 13)
+- **Green LED** - GPIO22 (Pin 15)
+- **Push Button** - GPIO23 (Pin 16)
+
+## How to Run
+```bash
+python3 traffic_lights_test.py
+python3 crosswalk_simulation.py
